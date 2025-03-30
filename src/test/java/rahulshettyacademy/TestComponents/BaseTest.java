@@ -89,6 +89,8 @@ public class BaseTest {
 		landingPage = new LandingPage(driver);
 
 		landingPage.goTo();
+		
+		System.out.println("going to rahulshettyacademy.com");
 
 		return landingPage;
 	}
