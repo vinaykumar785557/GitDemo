@@ -90,7 +90,10 @@ public class BaseTest {
 
 		landingPage.goTo();
 		
-		System.out.println("going to rahulshettyacademy.com");
+		System.out.println("going to rahulshettyacademy1.com");
+		System.out.println("going to rahulshettyacademy2.com");
+		System.out.println("going to rahulshettyacademy3.com");
+		System.out.println("going to rahulshettyacademy4.com");
 
 		return landingPage;
 	}

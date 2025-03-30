@@ -33,6 +33,8 @@ public class Listeners extends BaseTest implements ITestListener {
 		extentTest.get().log(Status.PASS, "Test Passed");
 	}
 
+//	Take screenshot on failure of test case
+
 	@Override
 	public void onTestFailure(ITestResult result) {
 		// test.log(Status.FAIL, "Test Failed");
